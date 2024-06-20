@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width , initial scale=1">
+    <title> Complete Website design using html and css </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+
+    <section id="header">
+           <div class="container">
+               <img src="images/logo.png" alt="logo" class="logo">
+
+               <div class="header-text">
+
+                   <h1> The purpose is to <br> teach , bring learning to people </h1>
+                   <span class="square"></span>
+                   <p>
+                    Immerse yourself in a vast array of subjects, from mathematics and science to literature and history. Our carefully curated content ensures that learners can delve into topics that pique their interest and expand their horizons. Whether you're a student seeking to enhance your academic prowess or an adult eager to explore new passions, our website offers a treasure trove of educational opportunities.
+                   </p>
+
+                   <button class="common-btn"> Read More</button>
+
+                   <div class="line">
+                       <span class="line-1"></span> <br>
+                       <span class="line-2"></span> <br> 
+                       <span class="line-3"></span>  <br>
+                   </div>
+               </div>
+           </div>
+    </section>
+
+    <!-- Navigations bar starts from here  -->
+
+    <nav id="sideNav">
+        <ul>
+            <li> <a href="#@">Home</a> </li>
+            <li> <a href="#@">About Us</a> </li>
+            <li> <a href="#@"> Features </a> </li>
+            <li> <a href="#@"> Courses </a> </li>
+            <li> <a href="#@"> Offers </a> </li>
+            <li> <a href="#@">Contact Us </a> </li>
+        </ul>
+    </nav>
+
+    <img src="images/menu.png" alt="Menu Bar" id="menuBtn">
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px")
+            {
+                sideNav.style.right == "0";
+            }
+            else{
+                sideNav.style.right = "-250px";
+            }
+        }
+    </script>
+
+
+
+       <!--  About Section starts from here  -->
+
+       <section id="about">
+           <div class="about-left-col">
+               <img src="images/about.png" alt="">
+           </div>
+           <div class="about-right-col">
+               <div class="about-text">
+                   <h1> About Us </h1>
+                   <span class="square"></span>
+                 <p>
+                    Discover the joy of learning anew, where education becomes an exhilarating adventure. Whether you're a scholar, a seeker, or a dreamer, our education website empowers you to excel and thrive. Start your expedition today and let your intellect soar to new heights!
+                 </p>
+                       <br><br>
+
+                 <div class="line">
+                    <span class="line-1"></span> <br>
+                    <span class="line-2"></span> <br> 
+                    <span class="line-3"></span>  <br>
+                </div>
+
+
+                 <h2>
+                     "Learning is not attained by chance , it must be sought for with ardor and attended to with diligence"
+                 </h2>
+                 <h3> --------Abigail Adams </h3>
+               </div>
+           </div>
+       </section>
+
+
+       <section id="features">
+           <div class="feature-row">
+               <div class="feature-col">
+                   <img src="images/pic-1.png" alt="Pic1 image">
+                   <h4> Learn Anywhere </h4>
+                   <p>
+                       Switch between your computer , tablet or mobile devices 
+                   </p>
+               </div>
+
+               <div class="feature-col">
+                <img src="images/pic-2.png" alt="Pic2 image">
+                <h4> Expert Teacher </h4>
+                <p>
+                   Learn from industry expert who are passionate about teaching 
+                </p>
+               </div>
+
+               <div class="feature-col">
+                <img src="images/pic-3.png" alt="Pic3 image">
+                <h4> Unlimited Access </h4>
+                <p>
+                    Choose what you like to learn from our extensive subscription library 
+                </p>
+               </div>
+           </div>
+
+           <div class="feature-btn">
+
+            <div class="line">
+                <span class="line-1"></span> <br>
+                <span class="line-2"></span> <br> 
+                <span class="line-3"></span>  <br>
+            </div>
+
+               <button class="common-btn"> Start Free Trial </button>
+        </div>
+           
+       </section>
+
+
+       <!--  Course section starts from here  -->
+       
+       <section id="courses">
+           <div class="course-row">
+               <div class="course-left-col">
+                     <div class="course-text">
+                         <h1> Browse our top <br> Courses </h1>
+                         <span class="square"></span>
+                         <p>
+                             Country To Popular Brief Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit distinctio asperiores optio tempore accusamus ut cum, temporibus beatae, magni doloremque repellat tenetur animi porro laborum ipsa natus nisi provident eaque vero saepe. Dolores, fugit dolore?
+                         </p>
+
+                         <button class="common-btn">View All Courses </button>
+                         <div class="line">
+                            <span class="line-1"></span> <br>
+                            <span class="line-2"></span> <br> 
+                            <span class="line-3"></span>  <br>
+                        </div>
+                     </div>
+               </div>
+
+
+               <div class="course-right-col">
+                   <img src="images/course.png" alt="">
+               </div>
+           </div>
+       </section>
+
+
+       <!--  About Section start from here  -->
+
+       <section id="offer">
+        <div class="about-left-col">
+            <img src="images/offer.png" alt="">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h1> Limitless learning , <br> limitless possibilities  </h1>
+                <span class="square"></span>
+              <p>
+                Craft your own learning destiny with personalized paths tailored to your aspirations, and connect with a vibrant community of learners to exchange insights and ideas. Dive into a rich tapestry of resources, from riveting articles to enlightening videos, and earn esteemed certificates that showcase your newfound expertise.
+            
+              <button class="common-btn"> Starts Free Triel </button>
+
+              <div class="line">
+                 <span class="line-1"></span> <br>
+                 <span class="line-2"></span> <br> 
+                 <span class="line-3"></span>  <br>
+             </div>
+
+
+              <h2>
+                  "Learning is not attained by chance , it must be sought for with ardor and attended to with diligence"
+              </h2>
+              <h3> --------Abigail Adams </h3>
+            </div>
+        </div>
+    </section>
+
+
+    <!--  Contact Section starts from here  -->
+
+    <section id="contact">
+        <div class="contact-row">
+            <div class="contact-left-col">
+                <h1>Sign Up To Join Our <br> learning Community </h1>
+
+                <form>
+                    <input type="text" placeholder="Enter Your Name">
+                    <input type="email" placeholder="Enter Your Email">
+                    <input type="password" placeholder="Enter Your Password">
+                    <div class="btn-box">
+                        <button class="common-btn"> Sign Up</button>
+                        <button class="common-btn"> Start Free Triel </button>
+                    </div>
+
+                </form>
+
+            </div>
+
+
+            <div class="contact-right-col">
+                <img src="images/contact.png" alt="Conatct Image">
+            </div>
+        </div>
+    </section>
+
+
+    <section id="footer">
+        <div class="footer-row">
+            <hr>
+
+            <div class="footer-left-col">
+                <div class="footer-links">
+                    <div class="link-title">
+                        <h4> Product</h4>
+                        <small> Our Plan </small> <br>
+                        <small> Free Trial </small>
+                    </div>
+
+                    <div class="link-title">
+                        <h4> About Us </h4>
+                        <small> Request Demo </small> <br>
+                        <small> EAQs </small>
+                    </div>
+              
+                    <div class="link-title">
+                        <h4> Support </h4>
+                        <small> Features </small><br>
+                        <small> Coontact Us </small>
+                    </div>
+                 
+                    <div class="link-title">
+                        <h4> Explore </h4>
+                        <small> Find a nonprofit </small> <br>
+                        <small> Corporate Solution  </small>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="footer-right-col">
+                
+                <div class="footer-info">
+                    <div class="copyright-text">
+                        <small>Support@Xypo.com</small>  <br>
+                        <small>Copyright act @2020 All Rights Are Reserved </small>
+                    </div>
+
+                    <div class="footer-logo">
+                        <img src="images/logo.png" alt="Logo">
+                        <button class="common-btn">English</button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!--  Social Icons Section  -->
+
+    <div class="social-icons">
+        <img src="images/facebook.png" alt="Facebook image">
+        <img src="images/instagram.png" alt="Inastagram image">
+        <img src="images/linkedin.png" alt="Linked in image">
+    </div>
+
+
+
+
+</body>
+</html>
